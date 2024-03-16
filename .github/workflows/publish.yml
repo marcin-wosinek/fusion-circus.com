@@ -38,8 +38,11 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npm run build
 
-      - name: List all files
+      - name: List all files in current directory
         run: ls
+
+      - name: List all files in parent directory
+        run: ls ..
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
