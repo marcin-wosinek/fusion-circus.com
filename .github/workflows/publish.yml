@@ -29,6 +29,12 @@ jobs:
         with:
           static_site_generator: next
 
+      - name: Where am I
+        run: pwd
+
+      - name: Create folder
+        run: mkdir out
+
       - name: Build with Next.js 🏗️
         run: npm run build
 
