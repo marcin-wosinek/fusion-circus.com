@@ -1,0 +1,54 @@
+body {
+  color: #041218;
+  background-color: #2aaae277;
+}
+
+.top-menu {
+  list-style: none;
+  padding: 1em;
+}
+
+.top-menu li {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin: 0.25em;
+  float: left;
+}
+
+.top-menu li.language {
+  float: right;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo img {
+  margin: 16px;
+  max-width: calc(100% - 32px);
+}
+
+.card {
+  background-color: white;
+  max-width: 820px;
+  width: 96%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 22px rgba(105, 129, 131, 0.7);
+  margin: 32px auto 64px;
+}
+
+.copy {
+  padding: 44px 32px;
+}
+
+.image {
+  max-width: calc(50% - 2px);
+}
+
+@media (width <= 600px) {
+  .image {
+    max-width: 100%;
+  }
+}
