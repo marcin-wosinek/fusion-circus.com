@@ -43,8 +43,12 @@ body {
   padding: 44px 32px;
 }
 
-.image {
-  max-width: calc(50% - 2px);
+.photos {
+  max-width: calc(100% - 2px);
+}
+
+.photos img {
+  max-height: 162px;
 }
 
 @media (width <= 600px) {
