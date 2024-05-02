@@ -9,12 +9,12 @@ body {
   background: url("./assets/hero.jpeg") center;
   background-size: cover;
   font-family: tt-nooks, serif;
-  font-size: 48px;
   text-align: center;
   color: #fff;
 }
 
 .tag {
+  font-size: 48px;
   margin: 16px;
 }
 
@@ -102,4 +102,40 @@ h2 {
       rgba(216, 6, 161, 0.8)
     ),
     url("./assets/brussels-banner.png");
+}
+
+.info-box {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 36px 68px 36px 68px;
+}
+
+.main > .info-box:first-child {
+  position: relative;
+  top: -48px;
+  margin-bottom: -48px;
+}
+
+.info-box h2 {
+  margin-top: 16px;
+}
+
+.program {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.program .info-box {
+  flex: 1 0;
+  padding: 26px;
+}
+
+.program a {
+  color: #7412c9;
+}
+
+.program ul {
+  list-style: none;
+  padding: 0;
 }
