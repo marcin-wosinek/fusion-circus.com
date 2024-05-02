@@ -32,11 +32,14 @@ body {
   height: 210px;
 }
 
-.header {
+.main {
+  padding: 16px;
+  box-sizing: border-box;
+  max-width: 1206px;
+  margin: auto;
 }
 
-h2 {
-  font-size: 48px;
+.header {
   font-family: tt-nooks, serif;
   text-align: center;
 
@@ -44,7 +47,7 @@ h2 {
   background-color: red;
 
   /* Create the gradient. */
-  background-image: linear-gradient(0deg, #7412C9, #D806A1);
+  background-image: linear-gradient(0deg, #7412c9, #d806a1);
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -56,4 +59,47 @@ h2 {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.events {
+  padding: 0;
+  list-style: none;
+}
+
+.event-banner {
+  border-radius: 30px;
+  overflow: hidden;
+  height: 322px;
+  padding: 28px 40px;
+  margin: 26px 0;
+  box-sizing: border-box;
+}
+
+.event-banner {
+  color: #fff;
+  text-decoration: none;
+  font-family: tt-nooks, serif;
+  display: block;
+}
+
+.harmony-banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(116, 18, 201, 0.8),
+      rgba(216, 6, 161, 0.8)
+    ),
+    url("./assets/harmony-banner.png");
+}
+
+.brussels-banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(116, 18, 201, 0.8),
+      rgba(216, 6, 161, 0.8)
+    ),
+    url("./assets/brussels-banner.png");
 }
