@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "TTNooksRegular";
+  src: url("assets/fonts/TTNooksRegular.woff2") format("woff2"),
+    url("assets/fonts/TTNooksRegular.woff") format("woff");
+}
+
 body {
   background-color: #eae1f2;
   margin: 0;
@@ -8,7 +14,7 @@ body {
   min-height: 320px;
   background: url("./assets/hero.jpeg") center;
   background-size: cover;
-  font-family: tt-nooks, serif;
+  font-family: TTNooksRegular, serif;
   text-align: center;
   color: #fff;
 }
@@ -40,7 +46,7 @@ body {
 }
 
 .header {
-  font-family: tt-nooks, serif;
+  font-family: TTNooksRegular, serif;
   text-align: center;
 
   /* Fallback: Set a background color. */
@@ -82,7 +88,7 @@ h2 {
 .event-banner {
   color: #fff;
   text-decoration: none;
-  font-family: tt-nooks, serif;
+  font-family: TTNooksRegular, serif;
   display: block;
 }
 
