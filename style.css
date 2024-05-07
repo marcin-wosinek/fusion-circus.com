@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=League+Spartan&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:ital@0;1&family=League+Spartan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital@0;1&family=League+Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jost:ital@0;1&family=League+Spartan&display=swap");
 
 @font-face {
   font-family: "TTNooksRegular";
@@ -90,10 +90,41 @@ h2 {
 }
 
 .event-banner {
+  align-items: baseline;
   color: #fff;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
   font-family: TTNooksRegular, serif;
-  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.event-banner h3 {
+  margin: 0px;
+  font-size: 48px;
+}
+
+.event-banner h4 {
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.event-banner button {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: white;
+  color: #7412c9;
+  margin-top: auto;
+}
+
+.event-banner sub {
+  position: absolute;
+  font-size: 144px;
+  font-family: TTNooksRegular, serif;
+  color: rgba(255, 255, 255, 0.4);
+  bottom: 0;
+  right: 16px;
 }
 
 .harmony-banner {
