@@ -161,6 +161,11 @@ h2 {
   margin-top: 16px;
 }
 
+.workshop {
+  max-width: 740px;
+  margin: auto;
+}
+
 .program {
   display: flex;
   gap: 30px;
