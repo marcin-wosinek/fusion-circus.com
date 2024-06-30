@@ -166,7 +166,25 @@ h2 {
   margin: auto;
 }
 
+.image-small {
+  max-height: 150px;
+  margin: 0.5em;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.workshop h4 {
+  clear: both;
+}
+
 .program {
+  clear: both;
   display: flex;
   gap: 30px;
   align-items: flex-start;
