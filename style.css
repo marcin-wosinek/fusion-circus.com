@@ -151,6 +151,12 @@ h2 {
   padding: 36px 68px 36px 68px;
 }
 
+@media (width <= 600px) {
+  .info-box {
+    padding: 16px;
+  }
+}
+
 .main > .info-box:first-child {
   position: relative;
   top: -48px;
@@ -190,6 +196,13 @@ h2 {
   align-items: flex-start;
 }
 
+@media (width <= 850px) {
+  .program {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
 .program .info-box {
   flex: 1 0;
   padding: 26px;
@@ -202,4 +215,10 @@ h2 {
 .program ul {
   list-style: none;
   padding: 0;
+}
+
+@media (width <= 600px) {
+  .image {
+    max-width: 100%;
+  }
 }
