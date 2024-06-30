@@ -1,6 +1,6 @@
 body {
   color: #041218;
-  background-color: #B60707;
+  background-color: #b60707;
 }
 
 .top-menu {
@@ -55,4 +55,21 @@ body {
   .image {
     max-width: 100%;
   }
+}
+
+.workshop {
+  clear: both;
+}
+
+.image-small {
+  max-height: 150px;
+  margin: 0.5em;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
