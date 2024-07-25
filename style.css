@@ -52,6 +52,7 @@ body {
 .header {
   font-family: TTNooksRegular, serif;
   text-align: center;
+  clear: both;
 
   /* Fallback: Set a background color. */
   background-color: red;
