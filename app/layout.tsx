@@ -17,11 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Script
-        defer
-        data-domain="fusion-circus.com"
-        src="https://plausible.io/js/script.js"
-      />
       <body className={inter.className}>{children}</body>
     </html>
   );
