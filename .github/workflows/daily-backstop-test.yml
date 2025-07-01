@@ -36,13 +36,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: backstop-report
-          path: backstop_data/html_report/
+          path: backstop_data/
           retention-days: 14
       
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: backstop_data/html_report/
+          path: backstop_data/
   
   # Deploy to GitHub Pages
   deploy:
