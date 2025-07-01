@@ -1,1 +1,22 @@
-node_modules
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# BackstopJS specific
+# Ignore test results but keep reference images
+backstop_data/bitmaps_test/
+backstop_data/html_report/
+backstop_data/ci_report/
+
+# Don't ignore reference images (these should be versioned)
+!backstop_data/bitmaps_reference/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
