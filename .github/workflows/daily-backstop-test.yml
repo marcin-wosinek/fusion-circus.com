@@ -32,7 +32,7 @@ jobs:
         run: npx backstop test
       
       - name: Upload test results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()  # Upload even if previous steps failed
         with:
           name: backstop-report
