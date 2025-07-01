@@ -1,0 +1,20 @@
+{
+  "name": "fusion-circus.com",
+  "version": "1.0.0",
+  "description": "Script to monitor the website",
+  "homepage": "https://github.com/marcin-wosinek/fusion-circus.com#readme",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/fusion-circus.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/fusion-circus.com.git"
+  },
+  "license": "ISC",
+  "author": "Marcin Wosinek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
