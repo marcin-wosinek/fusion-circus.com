@@ -9,14 +9,13 @@ on:
 jobs:
   backstop-test:
     runs-on: ubuntu-latest
-    container: ghcr.io/puppeteer/puppeteer:24.11.2
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'npm'
@@ -32,5 +31,5 @@ jobs:
         if: always()  # Upload even if previous steps failed
         with:
           name: backstop-report
-          path: backstop_data/html_report/
+          path: .
           retention-days: 14
